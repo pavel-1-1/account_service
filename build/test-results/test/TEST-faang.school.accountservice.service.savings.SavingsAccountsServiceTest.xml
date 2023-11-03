@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="faang.school.accountservice.service.savings.SavingsAccountsServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-28T06:35:03" hostname="DESKTOP-T5134UM" time="1.131">
+  <properties/>
+  <testcase name="getTariffScore()" classname="faang.school.accountservice.service.savings.SavingsAccountsServiceTest" time="1.103"/>
+  <testcase name="openScore()" classname="faang.school.accountservice.service.savings.SavingsAccountsServiceTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

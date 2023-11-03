@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: password
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+
+server:
+  port: 8090
+
+logging:
+  level:
+    root: info
+
+accrual :
+  executors-pool: 20
+  size-select-db: 50000
+  accrual-run-size: 1000
+
+project-service:
+  host: localhost
+  port: 8082
+  url: localhost:8082/api/v1
+user-service:
+  host: localhost
+  port: 8080
+  url: localhost:8080/api/v1
